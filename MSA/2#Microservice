@@ -1,0 +1,20 @@
+# Microservice의 특징
+
+1. Challenges
+2. Small Well chosen Deployable Units
+3. Bouded Context
+4. Restful
+5. Configuration Management
+6. CloudEnabled
+7. Dynamic Scale Up And Scale Down
+8. CI/CD
+9. Visibility
+
+"모든 서비스가 마이크로서비스 일 필요는 없다"
+Q1. Multiple Rates of Changes - 어느정도 변화가 생길 것인가
+Q2. Independent Life Cycles - 독립 생애 사이클
+Q3. Independent Scalability - 독립적인 확장성
+Q4. Isolated Failure - 격리된 실패
+Q5. Symplify Interactions with External Dependencies - 외부 서비스와 종속성의 최소화
+Q6. Polyglot Technology - 기술의 다양성
+
