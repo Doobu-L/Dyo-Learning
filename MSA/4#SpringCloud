@@ -1,0 +1,27 @@
+- 환경설정관리, 회복성처리, 프록시관리 ... 등의 분산시스템 환경을 지원하기위해 개발된 프레임워크
+
+Spring Cloud 2020.0.x  - Spring Boot 2.4
+
+Spring Cloud Config
+Spring Cloud Netflix
+Spring Cloud Security
+Spring Cloud Sleuth
+Spring Cloud Starter
+Spring Cloud Gateway
+Spring Cloud OpenFeign
+
+등의 모듈을 사용해서, 최소한적으로 분산된 시스템을 운영하는 환경을 경험할 수 있다.
+
+
+- Centrailized configuration management
+  Spring Cloud Config Server - 분산된 서비스들의 설정정보를 관리하는 서버. 이 서버를 통해 git과 연동하여 분산환경에서 보다 쉽게 설정파일을 관리할 수 있다
+- Location transparency
+  Eureka (NamingServer)
+- Load Distribution (Load Balancing)
+  Spring Cloud Gateway
+- Easier Rest Clients
+  FeignClient
+- Visibility and monitoring
+  Zipkin Distributed Tracing  /  Netflix API gateway
+- Fault Tolerance
+  Hystrix
