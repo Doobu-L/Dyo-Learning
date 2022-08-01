@@ -1,0 +1,36 @@
+1. CI/CD (지속적인통합/배포)
+2. DevOps 
+3. Microservices
+4. Containers (가상화기술)
+
+
+
+# CI/CD
+- 지속적인 통합(Contiuous Integration)
+- 지속적인 배포  pipe line
+
+# DevOpt
+
+- Development / Operations / QA 의 교집합.
+- 더 자주 통합. 테스트. 배포 할 수 있는 환경을 만들고, 운영하는 것
+
+# Container 가상화
+
+- 컨테이너 가상화 기술 기반.
+- 기존에 가상머신 기술에 비해 가볍고 빠르고 이식에 용이하다.
+
+# 12-Factors +3
+ 
+- 마이크로 서비스를 구축하기위해 고려해야 할 12 +3가지 사항들
+
+# Monolith vs Microservice Architecture
+
+@ Monolith
+- 모든 업무 로직이 하나의 애플리케이션 형태로 패키지 되어 서비스
+- 애플리케이션에서 사용하는 데이터가 한곳에 모여 참조되어 서비스되는 형태
+- 일부 기능만 수정하더라도 전체 서비스를 재기동 해야함
+
+@ Microservice
+- 마틴 파울러 창시.
+- 최소한으로 중앙에서 관리되어야 하며, 서로다른 언어와 저장소를 사용할 수 있다.
+- RESTFul api를 통해 서비스 간 소통.
