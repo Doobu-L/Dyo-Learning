@@ -3,3 +3,9 @@ Service Discovery
 - 일종의 전화부 책
 - 각각의 Micro Service 를 유레카에 등록
 - 앞단에서 Load Balancer / API Gateway 를 통해 요청정보를 호출받고 요청정보를 Micro Service로 안내해준다.
+
+EurekaClient service
+@EnableEurekaClient
+
+Eureka service
+@EnableEurekaServer
